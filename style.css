@@ -1,6 +1,7 @@
 body {
     background: linear-gradient(180deg, #008559 0%, #00593C 200%);
     font-size: 24px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header {
