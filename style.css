@@ -6,14 +6,19 @@ header h1,p {
     color: #F0FFF8;
 }
 
+header img {
+    border-radius: 100%;
+    max-width: 100px;
+}
+
 section {
     max-width:  1000px;
-    margin: auto 0;
+    margin: 0 auto;
 }
 
 section h1 {
     color: #8FDEBA;
-    font-size: 2em;
+    font-size: 5em;
 }
 
 section p {
@@ -30,5 +35,5 @@ line-height: 100px;
 
 section .hero span {
     text-decoration: underline;
-    text-underline-offset: .5em;
+    text-underline-offset: 4px;
 }
