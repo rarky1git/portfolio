@@ -1,0 +1,23 @@
+body {
+    background: linear-gradient(180deg, #008559 0%, #00593C 100%);
+}
+
+header h1,p {
+    color: #F0FFF8;
+}
+
+section h1 {
+    color: #8FDEBA;
+}
+
+section p {
+    color: #CAFFE7;
+}
+
+section .hero {
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 90px;
+line-height: 100px;
+}
