@@ -8,7 +8,7 @@ header h1,p {
 
 section {
     max-width:  1000px;
-    margin: 0 auto;
+    margin: auto 0;
 }
 
 section h1 {
