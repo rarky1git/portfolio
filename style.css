@@ -1,9 +1,14 @@
 body {
-    background: linear-gradient(180deg, #008559 0%, #00593C 100%);
+    background: linear-gradient(180deg, #008559 0%, #00593C 200%);
 }
 
 header h1,p {
     color: #F0FFF8;
+}
+
+section {
+    max-width:  1000px;
+    margin: 0 auto;
 }
 
 section h1 {
