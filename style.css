@@ -44,7 +44,6 @@ line-height: 100px;
 }
 
 section .hero span {
-    text-decoration: underline;
-    text-underline-offset: 4px;
-    text-underline-thickness: .5em;
+    text-decoration: #115134 wavy underline;
+    text-underline-offset: 2px;
 }
