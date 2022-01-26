@@ -5,6 +5,8 @@ body {
 
 header {
     margin: 37px 27px;
+    border-radius: 15px;
+    background: #115134;
 }
 
 header h1,p {
