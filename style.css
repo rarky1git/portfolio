@@ -10,7 +10,12 @@ header {
     background: #115134;
 }
 
-header h1,p {
+header h1 {
+    color: #F0FFF8;
+    font-size: 1em;
+}
+
+header p {
     color: #F0FFF8;
     font-size: 1em;
 }
