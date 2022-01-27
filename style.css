@@ -1,13 +1,18 @@
 body {
-    background: linear-gradient(180deg, #008559 0%, #00593C 200%);
+    background: linear-gradient(180deg, #008559 0%, #002e1f 200%);
     font-size: 24px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #CAFFE7;
 }
 
 header {
-    margin: 37px 27px;
+    margin: 27px 37px 3em 37px;
     border-radius: 15px;
     background: #115134;
+    max-height: 60px;
+    position: sticky;
+    top: 27px;
+    display: flex;
 }
 
 header h1 {
@@ -20,6 +25,10 @@ header p {
     font-size: 1em;
 }
 
+header ol,ul {
+    list-style: none;
+}
+
 header h1 {
     font-size: 1.5em;
 }
@@ -27,6 +36,38 @@ header h1 {
 header img {
     border-radius: 100%;
     max-width: 100px;
+    height: 100%;
+}
+
+header div,ul {
+    display: flex;
+}
+
+div {
+    max-width: 90vw;
+    margin: 0 auto;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column-left {
+    float: left;
+    width: 30%;
+}
+
+#content-nav {
+    position: sticky;
+    top: 3em;
+}
+
+.column-right {
+    float: left;
+    width: 70%;
+    overflow: hidden;
 }
 
 section {
@@ -37,10 +78,20 @@ section {
 section h1 {
     color: #8FDEBA;
     font-size: 1.5em;
+    margin: 0;
+}
+
+section h2 {
+    color: #CAFFE7;
+    font-size: 4em;
+    margin: 0;
+    margin-top: 5px;
+    line-height: .9em;
 }
 
 section p {
     color: #CAFFE7;
+    margin: 1em 0;
 }
 
 section .hero {
