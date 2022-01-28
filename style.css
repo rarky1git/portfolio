@@ -1,23 +1,18 @@
 body {
-    background: linear-gradient(180deg, #008559 0%, #002e1f 200%);
+    background: linear-gradient(180deg, #008559 0%, #006845 200%);
     font-size: 24px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Work Sans', sans-serif;
     color: #CAFFE7;
+    margin-top: 0em;
 }
 
 header {
-    margin: 27px 37px 3em 37px;
+    margin: 27px 37px;
     border-radius: 15px;
     background: #115134;
     max-height: 60px;
     position: sticky;
     top: 27px;
-    display: flex;
-}
-
-header h1 {
-    color: #F0FFF8;
-    font-size: 1em;
 }
 
 header p {
@@ -27,23 +22,66 @@ header p {
 
 header ol,ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-header h1 {
-    font-size: 1.5em;
+header h1 a {
+    color: #F0FFF8;
+    position: absolute;
+    font-size: .55em;
+    padding: 0;
+    margin: 0;
+    padding-left: 4.2em;
+    top: 10px;
+    font-weight: 650;
+    max-height: 40px;
+    line-height: 40px;
+    letter-spacing: .25px;
 }
 
 header img {
+    top: -8px;
+    position: absolute;
+    margin-left: 1em;
     border-radius: 100%;
-    max-width: 100px;
-    height: 100%;
+    max-width: 200px;
+    height: 135%;
+}
+
+header h1 a:link {
+    color: #CAFFE7;
+    text-decoration: none;
+}
+
+header h1 a:visited {
+    color: #CAFFE7;
+    text-decoration: none;
 }
 
 header div,ul {
     display: flex;
+    justify-content: start;
+    max-height: 40px;
+    margin: 0;
+    padding: 0;
 }
 
-div {
+header li {
+    top: 5px;
+    padding-top: 4px;
+    padding-right: 12px;
+    padding-left: 12px;
+    font-size: 1em;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+}
+
+
+div .row {
     max-width: 90vw;
     margin: 0 auto;
 }
@@ -61,7 +99,7 @@ div {
 
 #content-nav {
     position: sticky;
-    top: 3em;
+    top: 7em;
 }
 
 .column-right {
@@ -73,6 +111,32 @@ div {
 section {
     max-width:  1000px;
     margin: 0 auto;
+}
+
+section.hero {
+    margin-top: 4em;
+}
+
+section ul {
+    display: block;
+}
+
+section#content-nav li {
+    color: #002e1f;
+    padding: 1em;
+    margin: 3px;
+}
+
+section#content-nav li:hover{
+    background-color: #00bd7e60;
+    border-radius: 15px;
+    padding: 1em;
+    margin: 3px;
+}
+
+
+section #content-nav li:after {
+    color: #002e1f;
 }
 
 section h1 {
@@ -105,4 +169,9 @@ line-height: 100px;
 section .hero span {
     text-decoration: #115134 wavy underline;
     text-underline-offset: 2px;
+}
+
+p.hero {
+    padding: 0;
+    margin: 0;
 }
