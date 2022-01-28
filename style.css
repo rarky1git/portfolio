@@ -1,6 +1,6 @@
 body {
     background: linear-gradient(180deg, #008559 0%, #006845 200%);
-    font-size: 24px;
+    font-size: 20px;
     font-family: 'Work Sans', sans-serif;
     color: #CAFFE7;
     margin-top: 0em;
@@ -49,14 +49,20 @@ header img {
     height: 135%;
 }
 
-header h1 a:link {
+header a:link {
     color: #CAFFE7;
     text-decoration: none;
 }
 
-header h1 a:visited {
+header a:visited {
     color: #CAFFE7;
     text-decoration: none;
+}
+
+header a li:hover {
+    background-color: #006e4a;
+    border-radius: 25px;
+    transition: .5s;
 }
 
 header div,ul {
@@ -113,8 +119,22 @@ section {
     margin: 0 auto;
 }
 
+section div {
+    padding-top: 3em;
+}
+
+.row .project-hero {
+    max-width: 1600px;
+}
+
 section.hero {
     margin-top: 4em;
+}
+
+section.bio img {
+    height: 90%;
+    object-fit: cover;
+    margin: 30px -20px;
 }
 
 section ul {
@@ -124,7 +144,7 @@ section ul {
 section#content-nav li {
     color: #002e1f;
     padding: 1em;
-    margin: 3px;
+    margin: 10spx;
 }
 
 section#content-nav li:hover{
@@ -143,11 +163,13 @@ section h1 {
     color: #8FDEBA;
     font-size: 1.5em;
     margin: 0;
+    padding-bottom: .5em;
+    font-weight: 500;
 }
 
 section h2 {
     color: #CAFFE7;
-    font-size: 4em;
+    font-size: 6em;
     margin: 0;
     margin-top: 5px;
     line-height: .9em;
@@ -158,12 +180,21 @@ section p {
     margin: 1em 0;
 }
 
+section p:active {
+    transition-property: all;
+}
+
+section img {
+    max-width: 100%;
+    border-radius: 20px;
+}
+
 section .hero {
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
-font-size: 4em;
-line-height: 100px;
+font-size: 4.5em;
+line-height: 120px;
 }
 
 section .hero span {
