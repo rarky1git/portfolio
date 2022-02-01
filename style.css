@@ -6,6 +6,10 @@ body {
     margin-top: 0em;
 }
 
+header div.col-3 div {
+    padding-left: 5em;
+}
+
 header {
     margin: 27px 37px;
     border-radius: 15px;
@@ -30,11 +34,9 @@ header ol,ul {
 header h1 a {
     color: #F0FFF8;
     position: absolute;
-    font-size: .50em;
+    font-size: .45em;
     padding: 0;
     margin: 0;
-    padding-left: 4.2em;
-    top: 10px;
     font-weight: 650;
     max-height: 40px;
     line-height: 40px;
@@ -72,6 +74,7 @@ header div,ul {
     max-height: 40px;
     margin: 0;
     padding: 0;
+    padding-left: 18px;
 }
 
 header li {
@@ -85,6 +88,10 @@ header li {
 header h1 {
     margin: 0;
     padding: 0;
+}
+
+header div.col-3 div p {
+    font-size: .5em;
 }
 
 
@@ -124,8 +131,9 @@ section div {
 
 section.hero {
     margin-top: 4em;
-
 }
+
+
 
 section.bio img {
     height: 90%;
@@ -201,4 +209,31 @@ section .hero span {
 p.hero {
     padding: 0;
     margin: 0;
+}
+
+
+
+
+
+
+
+
+footer {
+}
+
+footer ul {
+    text-align: center;
+    margin: auto 0;
+    padding: 5em;
+    padding-bottom: 2em;
+}
+
+footer li a{
+    color: #004e34;
+    padding: .5em;
+}
+
+footer li a img {
+    width: 32px;
+    height: 32px;
 }
