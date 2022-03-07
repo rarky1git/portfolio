@@ -3,26 +3,37 @@
 <html>
     <head>
         <title>Richie Arkanoff</title>
-        <link rel="stylesheet" href="https://unpkg.com/wingcss"/>
-        <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="../main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1" /> 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@338;402;554;697&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
     <body>
-        <header class="row">
-            <div class="col-3">
-                <img src="../img/profile icon.jpg" alt="">
-                <h1><a href="../index.html">Richie Arkanoff</a></h1>    
-            </div>
-            <ul class="col-9">
-                <a href=""><li>Home</li></a>
-                <a href="#about"><li>About</li></a>
-                <a href="index.html"><li>Work</li></a>
-                <a href=""><li>Other</li></a>
-            </ul>
+        <header>
+            <div>
+                <div>
+                    <h1><a href="../../index.html">Richie Arkanoff</a></h1>
+                    <p>Purdue University // UX Design // 2024</p>    
+                </div>
+                <svg class="menu" width="36" height="26" viewBox="0 0 48 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M24 32H0V26.6667H24V32ZM48 18.6667H0V13.3333H48V18.6667ZM48 5.33333H24V0H48V5.33333Z" fill="white"/>
+                </svg>
+            </div> 
+            <nav>
+                <svg class="close" width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16.5 0.25C13.2861 0.25 10.1443 1.20305 7.47199 2.98862C4.79969 4.77419 2.71689 7.31209 1.48697 10.2814C0.257041 13.2507 -0.0647633 16.518 0.562247 19.6702C1.18926 22.8224 2.73692 25.7179 5.00952 27.9905C7.28213 30.2631 10.1776 31.8108 13.3298 32.4378C16.482 33.0648 19.7493 32.743 22.7186 31.513C25.6879 30.2831 28.2258 28.2003 30.0114 25.528C31.797 22.8557 32.75 19.7139 32.75 16.5C32.75 14.366 32.3297 12.2529 31.5131 10.2814C30.6964 8.30985 29.4994 6.51847 27.9905 5.00952C26.4815 3.50056 24.6902 2.3036 22.7186 1.48696C20.7471 0.670319 18.634 0.25 16.5 0.25ZM20.9038 18.5963C21.0561 18.7473 21.177 18.927 21.2595 19.1251C21.342 19.3231 21.3844 19.5355 21.3844 19.75C21.3844 19.9645 21.342 20.1769 21.2595 20.3749C21.177 20.573 21.0561 20.7527 20.9038 20.9038C20.7527 21.0561 20.573 21.177 20.3749 21.2594C20.1769 21.3419 19.9645 21.3844 19.75 21.3844C19.5355 21.3844 19.3231 21.3419 19.1251 21.2594C18.927 21.177 18.7473 21.0561 18.5963 20.9038L16.5 18.7913L14.4038 20.9038C14.2527 21.0561 14.073 21.177 13.8749 21.2594C13.6769 21.3419 13.4645 21.3844 13.25 21.3844C13.0355 21.3844 12.8231 21.3419 12.6251 21.2594C12.427 21.177 12.2473 21.0561 12.0963 20.9038C11.9439 20.7527 11.8231 20.573 11.7406 20.3749C11.6581 20.1769 11.6156 19.9645 11.6156 19.75C11.6156 19.5355 11.6581 19.3231 11.7406 19.1251C11.8231 18.927 11.9439 18.7473 12.0963 18.5963L14.2088 16.5L12.0963 14.4038C11.7903 14.0978 11.6184 13.6827 11.6184 13.25C11.6184 12.8173 11.7903 12.4022 12.0963 12.0963C12.4023 11.7903 12.8173 11.6184 13.25 11.6184C13.6827 11.6184 14.0978 11.7903 14.4038 12.0963L16.5 14.2088L18.5963 12.0963C18.9023 11.7903 19.3173 11.6184 19.75 11.6184C20.1827 11.6184 20.5978 11.7903 20.9038 12.0963C21.2098 12.4022 21.3817 12.8173 21.3817 13.25C21.3817 13.6827 21.2098 14.0978 20.9038 14.4038L18.7913 16.5L20.9038 18.5963Z" fill="black"/>
+                </svg> 
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="projects/index.html">Work</a></li>
+                    <li><a href="">Other</a></li>
+                </ul>
+            </nav>
         </header>
-        <section class="column-left" id="content-nav">
+        <!-- <section class="column-left" id="content-nav">
             <ul>
                 <li><a href="#">Overview</a></li>
                 <li><a href="#team-members">Team Members</a></li>
@@ -36,48 +47,42 @@
                 <li><a href=""></a></li>
                 <li><a href=""></a></li>
             </ul>
-        </section>
-        <section class="row project-hero">
-            <div class="col-4">
-                <h2 id="overview">Overview</h2>
-                <p>In this first project, our team created an new activity tracker application which aims to give users a system that reduces fake out methods and promotes healthier behaviors and behavior changes in the users daily life. Fake out methods are any behavior that is an improper exploitation of a system and encourages the user to “cheat” through the system.</p>
-            </div>
-            <div class="col-4">
-                <h2 id="team-members">Team Members</h2>
-                <p>My project partner for this project was Mason Knight.
-                </p>
-            </div>
-            <div class="col-4">
-                <h2>Contribution</h2>
-                <p>Working in pairs for this project, I split many of the tasks with Mason. I completed interviews, ideation (sketches), research, as well as user testing through Zoom. I focused mainly in the areas or research and ideation within this project, working with Mason to iterate on the ideas that came through my ideation.
-                </p>
-                <img src="" alt="">
-            </div>
-        </section>
-        <section class="row project-hero">
-            <div class="col-4">
-                <h2 id="overview">Overview</h2>
-                <p>In this first project, our team created an new activity tracker application which aims to give users a system that reduces fake out methods and promotes healthier behaviors and behavior changes in the users daily life. Fake out methods are any behavior that is an improper exploitation of a system and encourages the user to “cheat” through the system.</p>
-            </div>
-            <div class="col-4">
-                <h2 id="team-members">Team Members</h2>
-                <p>My project partner for this project was Mason Knight.
-                </p>
-            </div>
-            <div class="col-4">
-                <h2>Contribution</h2>
-                <p>Working in pairs for this project, I split many of the tasks with Mason. I completed interviews, ideation (sketches), research, as well as user testing through Zoom. I focused mainly in the areas or research and ideation within this project, working with Mason to iterate on the ideas that came through my ideation.
-                </p>
-                <img src="" alt="">
-            </div>
+        </section> -->
+        <section class="overview">
+            <h1>Featured Work</h1>
+            <h2><a href="studio2/day-at-the-museum.html">A Day at the Museum</a></h2>
+            <h2><a href="">Technology for Humankind</a></h2>
+            <h2><a href="">Class in Mixed Reality</a></h2>
         </section>
         <footer>
+            <h1>Get in touch!</h1>
+            <a href="mailto:rarkanof@purdue.edu" id="url">rarkanof@purdue.edu</a>
+            <span class="material-icons" onclick="Copy();">content_copy</span>
             <ul>
-                <li><a href="mailto:rarkanof@purdue.edu">rarkanof@purdue.edu</a></li>
-                <li><a href=""><img src="" alt="Instagram"></a></li>
-                <li><a href=""><img src="" alt="Twitter"></a></li>
-                <li><a href=""><img src="" alt="LinkedIn"></a></li>
+                <li><a href="https://www.instagram.com/richiearkano.ff/"><img src="../img/instagram-logo.png" alt="Instagram"></a></li>
+                <li><a href="https://twitter.com/richiearkano_ff"><img src="../img/twitter-logo.png" alt="Twitter"></a></li>
+                <li><a href=""><img src="../img/linkedin-icon.png" alt="LinkedIn"></a></li>    
             </ul>
         </footer>
     </body>
+    <script>
+        function Copy() {
+        var Url = document.getElementById("url");
+        var link = Url.innerHTML;
+        navigator.clipboard.writeText(link);
+        }
+    </script>
+    <script>
+        const menu = document.querySelector('.menu')
+        const close = document.querySelector('.close')
+        const nav = document.querySelector('nav')
+
+        menu.addEventListener('click', () => {
+            nav.classList.add('open-nav')
+        })
+
+        close.addEventListener('click', () => {
+            nav.classList.remove('open-nav')
+        })
+    </script>
 </html>
