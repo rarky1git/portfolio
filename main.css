@@ -1,8 +1,8 @@
 body {
   margin: 0 auto;
   padding: 24px;
-  font-size: 24px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 18px;
+  font-family: 'Work Sans', sans-serif;
   color: #002213;
   background: radial-gradient(50% 50% at 50% 50%, #F4FFEF 0%, #F0FFE9 100%);
 }
@@ -175,17 +175,49 @@ body section.bio img {
 }
 
 body section.project-hero {
-  padding: 2em 0;
+  padding: 4em 0;
+}
+
+body section.project-hero .sub-title {
+  padding-top: 0;
+  font-size: 1.25em;
+}
+
+body section.project-hero .hero-img {
+  width: 18.5em;
+  margin: 0 auto;
+  border-radius: .5em;
 }
 
 body section.project-hero h1.title {
-  font-size: 4em;
+  padding-top: 0;
+  margin-top: .5em;
+  font-size: 3em;
   font-weight: 800;
 }
 
 body section.project-hero h2 {
   font-size: 2.5em;
   margin-bottom: .5em;
+}
+
+body section.project-hero hr {
+  margin: 3em;
+  height: 2px;
+  color: #00160C;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 footer {
@@ -222,6 +254,45 @@ footer ul li {
   margin: 0 1em;
 }
 
+.xp-studio-what {
+  margin-top: 2em;
+  padding: .5em;
+  padding-bottom: 0;
+  border-radius: 10px;
+  background: #acddac;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.xp-studio-what .xp-inter {
+  display: block;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.xp-studio-what div {
+  padding-bottom: 1em;
+}
+
+.xp-studio-what span {
+  padding: 0;
+}
+
+.xp-studio-what h1 {
+  font-size: .8em;
+}
+
+.closed {
+  display: none;
+}
+
+.column {
+  padding: 1em;
+}
+
 span.material-icons {
   margin-left: 6px;
   padding: 9px;
@@ -237,6 +308,15 @@ span.material-icons:hover {
 .open-nav {
   -webkit-transform: translateX(0);
           transform: translateX(0);
+}
+
+@media (max-width: 1180px) {
+  body {
+    font-size: 1.5em;
+  }
+  .hero-img {
+    width: 100%;
+  }
 }
 
 @-webkit-keyframes moveArrow {
