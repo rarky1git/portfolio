@@ -178,6 +178,18 @@ main:hover section.page-view {
 main div.modular-flex {
 	display: flex;
 	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+
+main div.glass {
+	background-color: rgba(255, 255, 255, 0.65);
+	transition: background-color 0.3s ease;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+div.glass:hover {
+	background-color: rgba(255, 255, 255, 0.75);
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.35);
 }
 
 main div.module {
