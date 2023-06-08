@@ -181,9 +181,16 @@ main div.modular-flex {
 	flex-wrap: wrap;
 }
 
+main div.module {
+	display: block;
+	margin: 2em;
+	border-radius: 1em;
+}
+
 main div.glass {
 	width: 20em;
-	padding: 1em;
+	padding: 2em;
+	margin: 1em;
 	background-color: rgba(255, 255, 255, 0.65);
 	transition: background-color 0.3s ease;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
@@ -192,12 +199,6 @@ main div.glass {
 div.glass:hover {
 	background-color: rgba(255, 255, 255, 0.75);
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.35);
-}
-
-main div.module {
-	display: block;
-	margin: 2em;
-	border-radius: 1em;
 }
 
 main h1,
