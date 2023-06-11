@@ -296,7 +296,8 @@ footer p {
 
 	#profile {
 		max-width: 85vw;
-
+	}
+	
 	/*suggestions from chatGPT */
 
 	img, video {
@@ -313,7 +314,7 @@ footer p {
         padding: 20px; /* adjust as needed */
         margin: 20px; /* adjust as needed */
     }
-	}
+	
   }
 
 @keyframes gradientAnimation {
