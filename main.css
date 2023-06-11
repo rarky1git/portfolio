@@ -292,6 +292,10 @@ footer p {
 		justify-content: flex-start;
 		margin-right: 0;
 	}
+
+	#profile {
+		max-width: 85vw;
+	}
   }
 
 @keyframes gradientAnimation {
