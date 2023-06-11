@@ -295,7 +295,7 @@ footer p {
 		text-align: center;
 	}
 
-	header nav {
+^2	header nav {
 		align-items: flex-start;
 	}
 
@@ -313,7 +313,7 @@ footer p {
 	}
 }
 
-@media only screen and (max-width: 767px) {
+@media (max-width: 767px) {
 	/* Styles for phones */
 	body {
 		display: block;
