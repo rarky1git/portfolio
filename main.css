@@ -286,6 +286,19 @@ footer p {
 	}
 }
 
+@media (max-width: 767px) {
+	/* Styles for phones */
+	body {
+		display: block;
+	}
+
+	header {
+		width: 100%;
+		display: flex;
+		justify-content: flex-start;
+	}
+  }
+
 @media (max-width: 1000px) and (min-width: 768px) {
 	header {
 		transform: translateX(-90%);
@@ -295,7 +308,7 @@ footer p {
 		text-align: center;
 	}
 
-^2	header nav {
+	header nav {
 		align-items: flex-start;
 	}
 
@@ -313,13 +326,4 @@ footer p {
 	}
 }
 
-@media (max-width: 767px) {
-	/* Styles for phones */
-	body {
-		display: block;
-	}
 
-	header {
-		justify-content: flex-start;
-	}
-  }
