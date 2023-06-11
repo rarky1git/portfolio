@@ -277,7 +277,8 @@ footer p {
 @media (max-width: 767px) {
 	/* Styles for phones */
 	body {
-		display: block;
+		display: flex;
+		flex-direction: column;
 	}
 
 	.modular-flex {
@@ -286,8 +287,10 @@ footer p {
 
 	header {
 		width: 100%;
+
 		display: flex;
 		justify-content: flex-start;
+		margin-right: 0;
 	}
   }
 
