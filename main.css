@@ -312,3 +312,14 @@ footer p {
 		transform: translateX(0);
 	}
 }
+
+@media only screen and (max-width: 767px) {
+	/* Styles for phones */
+	body {
+		display: block;
+	}
+
+	header {
+		justify-content: flex-start;
+	}
+  }
