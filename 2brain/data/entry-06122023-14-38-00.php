@@ -8,8 +8,7 @@
 </head>
 <body>
     <!-- Add your HTML content here -->
-    <h1>Welcome to My Web App!</h1>
-    
+    <h1>Welcome to My Web App!</h1>   
     
     <!-- Add more HTML content -->
     <p>More HTML content here.</p>
