@@ -1,6 +1,3 @@
-<?php
-// PHP code goes here
-?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,10 +10,6 @@
     <!-- Add your HTML content here -->
     <h1>Welcome to My Web App!</h1>
     
-    <?php
-    // PHP code for generating dynamic content
-    echo "<p>This is some dynamic content generated using PHP.</p>";
-    ?>
     
     <!-- Add more HTML content -->
     <p>More HTML content here.</p>
