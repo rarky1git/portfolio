@@ -19,10 +19,13 @@ body {
 
 header {
     width: 20%;
+    margin: 1em;
 }
 
 main {
     width: 80%;
+    display: flex;
+    align-content: space-between;
 }
 
 main section {
@@ -32,6 +35,12 @@ main section {
 object {
     width: 100%;
     height: fit-content;
+}
+
+section textarea {
+    width: 100%;
+    border-radius: .5em;
+
 }
 
 .existing-entry {
@@ -48,6 +57,7 @@ object {
 
 .entry-details-default blockquote {
     margin: 1em .5em;
+    border-left: 1px solid #000000;
 }
 
 .entry-container-date {
