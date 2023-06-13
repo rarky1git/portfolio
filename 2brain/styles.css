@@ -31,6 +31,7 @@ main section {
 
 object {
     width: 100%;
+    height: auto;
 }
 
 .entry-details-default {
@@ -39,6 +40,10 @@ object {
     font-size: 0.875em;
     align-items: center;
     gap: .5em;
+}
+
+.entry-details-default blockquote {
+    margin: 1em .5em;
 }
 
 .entry-container-date {
@@ -64,9 +69,9 @@ object {
     flex-direction: row;
     align-items: center;
     gap: .15em;
-    padding: .25em .125em;
+    padding: .125em .25em;
     border-radius: .5em;
-    background-color: #ff1;
+    background-color: rgb(255, 255, 191);
 }
 
 .tag-default p {
@@ -77,4 +82,8 @@ object {
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+.tag-page p {
+    margin: 0;
 }
