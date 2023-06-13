@@ -38,6 +38,10 @@ object {
     height: auto;
 }
 
+.existing-entry {
+    height: fit-content;
+}
+
 .entry-details-default {
     display: flex;
     flex-direction: row;
