@@ -29,6 +29,8 @@ body {
 
 header {
     width: 20%;
+    max-width: 300px;
+    min-width: 200px;
     padding: 1em;
     background-color: #D1E6FF;
 }
