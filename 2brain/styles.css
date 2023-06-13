@@ -15,11 +15,17 @@
 body {
     display: flex;
     flex-direction: row;
+    font-family: Inter;
 }
 
 header {
     width: 20%;
     margin: 1em;
+}
+
+header h1 {
+    font-size: 1.25em;
+    font-weight: 600;
 }
 
 main {
@@ -63,6 +69,7 @@ section textarea {
     font-size: 0.875em;
     align-items: baseline;
     gap: .5em;
+    font-weight: 300;
 }
 
 .entry-details-default svg {
