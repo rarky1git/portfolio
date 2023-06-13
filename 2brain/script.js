@@ -1,14 +1,13 @@
-window.addEventListener('load', function() {
-    var objs = document.querySelectorAll('object'); // select all object elements
+var textarea = document.getElementById('new-entry-input');
 
-    objs.forEach(function(obj) {
-        obj.onload = function() {
-            try {
-                // adjust the height of the object to match the height of its content
-                obj.style.height = obj.contentDocument.body.scrollHeight + 'px';
-            } catch (e) {
-                console.error('Could not adjust height of object:', e);
-            }
-        };
-    });
+textarea.addEventListener('focus', function() {
+    if (textarea.value === 'start writing @here') {
+        textarea.value = '';
+    }
+});
+
+textarea.addEventListener('blur', function() {
+    if (textarea.value === '') {
+        textarea.value = 'start writing @here';
+    }
 });

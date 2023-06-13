@@ -17,6 +17,7 @@ body {
     flex-direction: row;
     font-family: Inter;
     margin: 0;
+    height: 100vw;
 }
 
 header {
