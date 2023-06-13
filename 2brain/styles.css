@@ -25,23 +25,43 @@ header {
     width: 20%;
 }
 
+object {
+    width: 100%;
+}
+
 .entry-details-default {
     display: flex;
     flex-direction: row;
     font-size: 0.875em;
+    align-items: center;
+    gap: .25em;
 }
 
 .entry-container-date {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    gap: .25em;
+}
+
+.entry-container-date p {
+    margin: 0;
 }
 
 .tags-container {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    gap: .25em;
 }
 
 .tag-default {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    gap: .25em;
+}
+
+.tag-default p {
+    margin: 0;
 }
