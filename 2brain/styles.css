@@ -16,9 +16,10 @@
 scrollbar-width: thin;
 scrollbar-color: #888 rgba(0, 0, 0, 0.1); /* Color of the scrollbar thumb and track */
 
-main section div details {
+.entry-details-default {
     display: flex;
     flex-direction: row;
+    font-size: 0.875em;
 }
 
 .entry-container-date {
