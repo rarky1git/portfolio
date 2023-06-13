@@ -12,6 +12,10 @@
 	background-color: rgba(255, 255, 255, 0.5); /* Color of the scrollbar thumb */
 }
 
+html {
+    height: 100vw;
+}
+
 body {
     display: flex;
     flex-direction: row;
