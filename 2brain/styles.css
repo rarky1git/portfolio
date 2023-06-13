@@ -34,14 +34,14 @@ object {
     flex-direction: row;
     font-size: 0.875em;
     align-items: center;
-    gap: .25em;
+    gap: .5em;
 }
 
 .entry-container-date {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: .25em;
+    gap: .35em;
 }
 
 .entry-container-date p {
@@ -59,7 +59,7 @@ object {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: .25em;
+    gap: .15em;
 }
 
 .tag-default p {
