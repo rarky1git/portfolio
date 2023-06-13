@@ -45,7 +45,15 @@ section textarea {
 }
 
 .existing-entry {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
     height: fit-content;
+}
+
+.existing-entry blockquote {
+    margin: 1em .5em;
+    border-left: 1px solid #000000;
 }
 
 .entry-details-default {
@@ -59,11 +67,6 @@ section textarea {
 .entry-details-default svg {
     width: auto;
     height: 14px;
-}
-
-.entry-details-default blockquote {
-    margin: 1em .5em;
-    border-left: 1px solid #000000;
 }
 
 .entry-container-date {
