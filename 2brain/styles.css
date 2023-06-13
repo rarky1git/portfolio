@@ -25,6 +25,10 @@ header {
     width: 20%;
 }
 
+main section {
+    margin: 1em 1.5em;
+}
+
 object {
     width: 100%;
 }
@@ -52,7 +56,7 @@ object {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: .25em;
+    gap: .5em;
 }
 
 .tag-default {
@@ -60,8 +64,17 @@ object {
     flex-direction: row;
     align-items: center;
     gap: .15em;
+    padding: .25em .125em;
+    border-radius: .5em;
+    background-color: #ff1;
 }
 
 .tag-default p {
     margin: 0;
+}
+
+.tag-page {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
