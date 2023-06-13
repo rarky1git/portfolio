@@ -21,6 +21,7 @@ body {
 header {
     width: 20%;
     margin: 1em;
+    background-color: #D1E6FF;
 }
 
 header h1 {
@@ -120,5 +121,5 @@ section textarea {
 
 .tag-page p {
     margin: 0;
-    
+
 }
