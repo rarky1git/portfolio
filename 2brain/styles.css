@@ -62,10 +62,17 @@ section textarea {
     padding: .5em;
 }
 
+.entry-history {
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
 .existing-entry {
     display: flex;
     flex-direction: column;
-    gap: .5em;
+    gap: .25em;
     height: fit-content;
 }
 
