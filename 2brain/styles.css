@@ -52,7 +52,8 @@ section textarea {
 }
 
 .existing-entry blockquote {
-    margin: 1em .5em;
+    margin: .5em 0;
+    padding: 0 5em;
     border-left: 1px solid #000000;
 }
 
