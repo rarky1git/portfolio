@@ -16,11 +16,12 @@ body {
     display: flex;
     flex-direction: row;
     font-family: Inter;
+    margin: 0;
 }
 
 header {
     width: 20%;
-    margin: 1em;
+    padding: 1em;
     background-color: #D1E6FF;
 }
 
