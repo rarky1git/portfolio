@@ -74,7 +74,7 @@ section textarea {
 
 .entry-details-default svg {
     width: auto;
-    height: 14px;
+    height: 12px;
 }
 
 .entry-container-date {
@@ -98,7 +98,7 @@ section textarea {
 .tag-default {
     display: flex;
     flex-direction: row;
-    align-items: baseline;
+    align-items: center;
     gap: .15em;
     padding: .125em .25em;
     border-radius: .5em;
@@ -112,7 +112,7 @@ section textarea {
 .tag-page {
     display: flex;
     flex-direction: row;
-    align-items: baseline;
+    align-items: center;
     padding: .125em .25em;
     border-radius: .5em;
     background-color: rgb(255, 255, 191);
@@ -120,4 +120,5 @@ section textarea {
 
 .tag-page p {
     margin: 0;
+    
 }
