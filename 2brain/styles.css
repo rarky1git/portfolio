@@ -106,6 +106,9 @@ section textarea {
     display: flex;
     flex-direction: row;
     align-items: baseline;
+    padding: .125em .25em;
+    border-radius: .5em;
+    background-color: rgb(255, 255, 191);
 }
 
 .tag-page p {
