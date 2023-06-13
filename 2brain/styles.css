@@ -61,7 +61,7 @@ section textarea {
     display: flex;
     flex-direction: row;
     font-size: 0.875em;
-    align-items: center;
+    align-items: baseline;
     gap: .5em;
 }
 
@@ -73,7 +73,7 @@ section textarea {
 .entry-container-date {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: baseline;
     gap: .35em;
 }
 
@@ -84,14 +84,14 @@ section textarea {
 .tags-container {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: baseline;
     gap: .5em;
 }
 
 .tag-default {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: baseline;
     gap: .15em;
     padding: .125em .25em;
     border-radius: .5em;
@@ -105,7 +105,7 @@ section textarea {
 .tag-page {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: baseline;
 }
 
 .tag-page p {
