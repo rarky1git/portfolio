@@ -55,6 +55,11 @@ section textarea {
     gap: .5em;
 }
 
+.entry-details-default svg {
+    width: auto;
+    height: 14px;
+}
+
 .entry-details-default blockquote {
     margin: 1em .5em;
     border-left: 1px solid #000000;
