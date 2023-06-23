@@ -167,7 +167,6 @@ main {
 	flex-direction: row;
 	overflow-y: auto;
 	height: 100vh;
-	margin: 0 1em;
 	overflow-wrap: break-word;
 }
 
