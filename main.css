@@ -1,3 +1,8 @@
+/* -------------------------- */
+
+/* global styles */
+
+/* -------------------------- */
 * {
 	box-sizing: border-box;
 }
@@ -58,6 +63,12 @@ body {
 	overflow-x: hidden;
 }
 
+/* ------------------------ */
+
+/* HEADER */
+
+/* ------------------------ */
+
 header {
 	width: auto;
 	max-width: 25em;
@@ -103,7 +114,7 @@ header img {
 	width: 100%;
 	height: auto;
 }
-
+/* pages / nav */
 header nav {
 	width: 100%;
 	display: flex;
@@ -147,7 +158,11 @@ nav ul li a {
 .contact-icons svg {
 	margin: 0 1em;
 }
+/* ---------------------------- */
 
+/* MAIN styles */
+
+/* ---------------------------- */
 main {
 	width: 67%;
 	overflow-y: auto;
@@ -174,14 +189,16 @@ main:hover section.page-view {
 }
 
 main div.modular-flex {
-	display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(20em, 1fr)); /* adjust the minmax values as needed */
+	display: flex;
+	flex-direction: column;
     gap: 2em; /* adjust this value as needed */
     margin-top: 1em;
+	flex-wrap: wrap;
 }
 
 main div.module {
 	display: block;
+	min-width: 33vw;
     border-radius: 1em;
     overflow: hidden; /* new property */
 }
