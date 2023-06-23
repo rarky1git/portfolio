@@ -199,8 +199,8 @@ main div.modular-flex {
 main div.module {
 	display: block;
 	min-width: 33vw;
+	width: 33vw;
     border-radius: 1em;
-    overflow: hidden; /* new property */
 }
 
 main div.glass {
