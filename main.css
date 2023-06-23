@@ -228,7 +228,7 @@ h4 {
 	margin-top: 0;
 }
 
-main div.img-display {
+div.img-display {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -239,7 +239,7 @@ main div.img-display {
 	flex-wrap: wrap;
 }
 
-main div img {
+div.img-display img {
 	width: auto;
 	max-width: 45vw;
 	max-height: 50vh;
