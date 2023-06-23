@@ -170,6 +170,10 @@ main {
 	overflow-wrap: break-word;
 }
 
+main.home {
+	flex-direction: row;
+}
+
 main section.page-view {
 	margin: 5em 1em 0 1em;
 	margin-top: 5em;
