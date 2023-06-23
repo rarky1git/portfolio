@@ -163,6 +163,8 @@ nav ul li a {
 
 /* ---------------------------- */
 main {
+	display: flex;
+	flex-direction: row;
 	width: 67%;
 	overflow-y: auto;
 	height: 100vh;
