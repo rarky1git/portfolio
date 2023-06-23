@@ -201,6 +201,7 @@ main div.modular-flex {
 main div.module {
 	display: block;
 	min-width: 25vw;
+	max-width: 40vw;
     border-radius: 1em;
 }
 
