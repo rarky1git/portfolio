@@ -70,8 +70,8 @@ body {
 /* ------------------------ */
 
 header {
-	width: 25vw;
-	max-width: 25vw;
+	width: 20vw;
+	max-width: 20vw;
 	overflow-y: auto;
 	height: 100vh;
 	padding: 2em 2.25em;
