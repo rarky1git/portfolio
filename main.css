@@ -192,6 +192,7 @@ main div.modular-flex {
     margin: 1em;
 	flex-wrap: wrap;
 	width: 100%;
+	align-content: flex-start;
 }
 
 main div.module {
