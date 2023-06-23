@@ -169,7 +169,6 @@ main {
 	height: 100vh;
 	margin: 0 1em;
 	overflow-wrap: break-word;
-	transition: width 0.5s ease-in-out; /* new property */
 	overflow: visible;
 }
 
