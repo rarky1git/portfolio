@@ -71,7 +71,7 @@ body {
 
 header {
 	width: 20vw;
-	max-width: 20vw;
+	min-width: 25em;
 	overflow-y: auto;
 	height: 100vh;
 	padding: 2em 2.25em;
