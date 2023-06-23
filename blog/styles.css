@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4 {
+	font-family: "Poppins";
+	font-weight: 600;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+h2 {
+	font-size: 1.842em;
+}
+h3 {
+	font-size: 1.3572em;
+}
+h4 {
+	font-size: 1.1em;
+}
+small {
+	font-size: 0.7368em;
+}
