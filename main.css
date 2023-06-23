@@ -60,6 +60,7 @@ body {
 	align-items: center;
 	max-width: 1600px;
 	overflow-x: hidden;
+	margin: 0;
 }
 
 /* ------------------------ */
