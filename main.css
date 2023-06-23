@@ -190,7 +190,6 @@ main:hover section.page-view {
 main div.modular-flex {
 	display: flex;
 	flex-direction: column;
-    gap: 2em; /* adjust this value as needed */
     margin-top: 1em;
 	flex-wrap: wrap;
 }
