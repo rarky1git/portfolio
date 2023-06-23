@@ -192,7 +192,7 @@ main div.modular-flex {
 	flex-direction: column;
     margin: 1em;
 	flex-wrap: wrap;
-	max-width: 75vw;
+	max-width: 80vw;
 }
 
 main div.module {
