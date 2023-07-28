@@ -351,9 +351,9 @@ footer p {
 }
 
 @media (max-width: 1000px) and (min-width: 768px) {
-	header {
+	/* header {
 		transform: translateX(-90%);
-	}
+	} */
 
 	header div a h1 {
 		text-align: center;
@@ -371,10 +371,10 @@ footer p {
 		width: 100%;
 	}
 
-	header:hover,
+	/* header:hover,
 	main:hover + header {
 		transform: translateX(0);
-	}
+	} */
 }
 
 
