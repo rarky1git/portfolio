@@ -37,3 +37,14 @@ document.addEventListener("DOMContentLoaded", function () {
 		});
 	});
 });
+
+window.onload = function () {
+	var scrollableDiv = document.querySelector('.horizontal-scrollable');
+
+	scrollableDiv.addEventListener('wheel', function(e) {
+		// Normalize scroll speed across browsers and prevent vertical scroll
+		e.preventDefault();
+		// Multiply by 1.5 to make the scroll speed similar to normal
+		scrollableDiv.scrollLeft += e.deltaY * 1.5;
+	});
+}
